@@ -5,7 +5,7 @@ use Tracy\Debugger;
 Debugger::enable(Debugger::Development);
 //Debugger::$dumpTheme = 'dark';
 Debugger::$maxLength = 2048;
-Debugger::$showLocation = false;
+Debugger::$showLocation = true;
 
 Debugger::getBar()->addPanel(
     new class implements \Tracy\IBarPanel {
